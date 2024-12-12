@@ -1,0 +1,148 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #007a8e; /* Warna utama dari logo */
+  color: white;
+  padding: 15px 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin-right: 20px;
+}
+nav ul li {
+  margin-right: 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+section {
+  padding: 80px 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+#home {
+  background-color: #e0f5f5; /* Latar belakang lembut */
+  padding: 50px 0;
+}
+#about {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+#portfolio {
+  background-color: #e0f5f5; /* Latar belakang lembut */
+  /* display: flex; */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.portfolio-item {
+  display: flex;
+  flex: 1 1 30%;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #007a8e;
+  border-radius: 8px;
+  background-color: #ffffff;
+  transition: transform 0.2s;
+}
+.portfolio-item:hover {
+  transform: scale(1.05);
+}
+#contact {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Centering content */
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #007a8e;
+  color: white;
+}
+form {
+  max-width: 500px;
+  margin: 20px 0;
+  text-align: left;
+  width: 100%;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input[type="submit"] {
+  background-color: #007a8e; /* Warna tombol */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+input[type="submit"]:hover {
+  background-color: #005f6b; /* Warna tombol saat hover */
+}
+
+.form-container {
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.map-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+iframe {
+  border: 0;
+  width: 100%;
+  max-width: 600px; /* Maksimal lebar iframe */
+  height: 400px; /* Tinggi iframe */
+}
+.portfolio-button {
+  background-color: #007a8e; /* Warna tombol */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+.portfolio-button:hover {
+  background-color: #005f6b; /* Warna tombol saat hover */
+}
+
+.produk {
+  display: flex;
+  flex-direction: rows;
+}

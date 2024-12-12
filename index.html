@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arunika Group</title>
+    <link rel="icon" type="image/icon" href="logoArunika.jpg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <img style="width: 5%; border-radius: 50%; margin: 5px" src="logoArunika.jpg" alt="icon-logo" />
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <section id="home">
+      <h1>Selamat Datang di Arunika Group!</h1>
+      <p>Kami menawarkan berbagai produk inovatif yang dapat Anda lihat di section portofolio.</p>
+      <a href="#portfolio" class="portfolio-button">Lihat Portofolio</a>
+    </section>
+
+    <section id="about">
+      <div style="width: 50%" class="imgAbout">
+        <img style="width: 50%" src="About.png" alt="AboutUS" />
+      </div>
+      <div style="width: 50%" class="contentAbout">
+        <h2>Tentang Kami</h2>
+        <p>Kami adalah tim yang berkomitmen untuk menyediakan solusi digital terbaik untuk kebutuhan Anda.</p>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portofolio</h2>
+      <div class="produk">
+        <div class="portfolio-item"><img src="produk1.png" alt="produk1" style="width: 100%" /></div>
+        <div class="portfolio-item">Coming Soon</div>
+        <div class="portfolio-item">Coming Soon</div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="form-container">
+        <h2>Contact Us</h2>
+        <p style="margin-bottom: 20px">Jl. Dr. Setiabudi No.229, Isola, Kec. Sukasari, Kota Bandung, Jawa Barat 40154a</p>
+        <form>
+          <label for="name">Nama:</label><br />
+          <input type="text" id="name" name="name" required /><br />
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required /><br />
+          <label for="message">Pesan:</label><br />
+          <textarea id="message" name="message" required></textarea><br />
+          <input type="submit" value="Kirim" />
+        </form>
+      </div>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2841.9797563076568!2d107.59107227317787!3d-6.862422767136421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6b943c2c5ff%3A0xee36226510a79e76!2sUniversitas%20Pendidikan%20Indonesia!5e1!3m2!1sen!2sid!4v1733971703192!5m2!1sen!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Arunika Group. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
